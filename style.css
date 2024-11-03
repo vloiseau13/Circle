@@ -1,0 +1,228 @@
+body{
+    background-color: rgb(41, 49, 56);
+}
+h1{
+    font-family: "Monserrat", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+.quinte{
+    display: flex;
+    justify-content: center;
+}
+.cercle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width:350px;
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(41, 49, 56)
+}
+.cercle p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgb(17, 68, 112);
+}
+.suite{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 30px;
+}
+.resultat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+
+}
+.rondUn{
+    display: flex;
+    height: 55px;
+    width: 55px;
+    border: 2px, solid, black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9381;
+}
+.rondDeux{
+    display: flex;
+    height: 55px;
+    width: 55px;
+    border: 2px, solid, black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFBC88;
+}
+.rondTrois{
+    display: flex;
+    height: 55px;
+    width: 55px;
+    border: 2px, solid, black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE78C;
+}
+.rondQuatre{
+    display: flex;
+    height: 55px;
+    width: 55px;
+    border: 2px, solid, black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ABE590;
+}
+.rondCinq{
+    display: flex;
+    height: 55px;
+    width: 55px;
+    border: 2px, solid, black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #9FD2FD;
+}
+.rondSix{
+    display: flex;
+    height: 55px;
+    width: 55px;
+    border: 2px, solid, black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #C5B8F7;
+}
+.rondSept{
+    display: flex;
+    height: 55px;
+    width: 55px;
+    border: 2px, solid, black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9C9FE;
+}
+.boutonDo{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 300px;
+}
+.boutonFadiese{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 300px;
+}
+.boutonLa{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 300px;
+}
+.boutonMibem{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 300px;
+}
+.boutonSol{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 280px;
+    right: 73px;
+}
+.boutonFa{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 280px;
+    left: 73px;
+}
+.boutonSi{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 280px;
+    right: 73px;
+}
+.boutonRebem{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 280px;
+    left: 73px;
+}
+.boutonRe{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 75px;
+    right: 20px;
+}
+.boutonMi{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 225px;
+    right: 20px;
+}
+.boutonLabem{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 225px;
+    left: 20px;
+}
+.boutonSibem{
+    border-radius: 50%;
+    background-color: rgb(104, 167, 223);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 75px;
+    left: 20px;
+}
+
+
+
+
